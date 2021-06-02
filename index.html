@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>KeepClone</title>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" class="logo">
+        <h class="name">GOOGLE KEEP</h>
+        <button id="add">&#43;</button>
+    </header>
+    <section id="container">
+        <!--<div class="note">
+            <div>
+                <button>
+                    <img src="color.png">
+                    
+                </button>
+            </div>
+            <textarea></textarea>
+        </div>-->
+        <h1 id="previous">NOTES.....</h1>
+        <div class="overlay-container" style="display: none;" >
+        <div class="overlay" >
+            <div class="buttons">
+                <button id="red"></button>
+                <button id="blue"></button>
+                <button id="green"></button>
+                <button id="yellow"></button>
+            </div>
+            <input type="text" id="input" placeholder="Note...">
+            <button class="btn btn-success" id="create">Create Note</button>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
